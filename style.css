@@ -106,17 +106,17 @@ hr {
         Lates Course 
 -------------------------*/
 
-.courses {
+.top_courses {
     margin-top: 21px;
     background-color: white;
     width: 870px;
-    height: 362px;
+    height: 440px;
     top: 830px;
     left: 285px;
     border-radius: 5px;
 }
 
-.courses h1 {
+.top_courses h1 {
     color: #562eff;
     width: 156px;
     height: 36px;
@@ -126,4 +126,103 @@ hr {
 .course img {
     width: 224px;
     height: 104px;
+}
+
+.paragraph h3 {
+    color:
+        #1E1E1E;
+    size: 20px;
+    font:
+        Roboto;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.paragraph p {
+    color:
+        #ED6B4F;
+    font:
+        Roboto;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.icons p {
+    color:
+        #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.icons span {
+    color:
+        #A2A2A2;
+    font:
+        Poppins;
+    font-weight: 400;
+    size: 14px;
+    margin-left: 3px;
+}
+
+.rectangle {
+    background-color: #FFE4E8;
+    width: 94px;
+    height: 30px;
+    border-radius: 15px;
+    color: #FF4A60;
+    display: flex;
+    align-items: center;
+}
+
+.middle {
+    background-color: #FEE5DF;
+    color: #ED6B4F;
+}
+
+.middle img {
+    color: #ED6B4F;
+}
+
+.rectangle img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.rectangle span {
+    font: Open Sans;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.course {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    justify-content: center;
+    width: 252px;
+    height: 270px;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.05);
+
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -15px;
+    column-gap: 10px;
 }
