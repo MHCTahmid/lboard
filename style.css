@@ -226,3 +226,88 @@ hr {
     margin-top: -15px;
     column-gap: 10px;
 }
+
+/*---------------------------------------- 
+                Media Queries 
+------------------------------------------*/
+
+/* ----------------------------
+        Mobile View 
+-------------------------------*/
+
+@media only screen and (max-width: 668px) {
+
+    .container-1,
+    .top_courses {
+        width: 100%;
+        height: auto;
+    }
+
+    .Top_players,
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    .courses {
+        flex-direction: column;
+        column-gap: 10px;
+    }
+
+    .article {
+        flex-direction: column;
+    }
+
+    h1 {
+        white-space: nowrap;
+    }
+
+    .blog {
+        padding: 0 30px;
+    }
+
+    hr {
+        width: 80%;
+    }
+}
+
+/* ----------------------------
+        Tablet View 
+-------------------------------*/
+
+@media only screen and (min-width: 669px) and (max-width: 992px) {
+
+    .container-1,
+    .top_courses {
+        width: 100%;
+        height: auto;
+    }
+
+    .Top_players,
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .courses {
+        flex-direction: column;
+        column-gap: 10px;
+    }
+
+
+    .article {
+        flex-direction: column;
+    }
+
+    h1 {
+        white-space: nowrap;
+    }
+
+    .blog {
+        padding: 0 30px;
+    }
+
+    hr {
+        width: 80%;
+    }
+}
